@@ -4,7 +4,12 @@ const final=()=> {
     
     names.map((name,ind)=>(
     let firstLetter=name.chartAt(0).toLowerCase();
+     firstLetter==="j"?byeSpeaker.speak(name):helloSpeaker.speak(name);
     ))
+    )}
+
+final();
+    
 //     for (var i = 0; i < names.length; i++) {
     
 //       var firstLetter = names[i].charAt(0).toLowerCase();
@@ -16,5 +21,3 @@ const final=()=> {
 //       }
 //     }
     
-    )}
-final();
