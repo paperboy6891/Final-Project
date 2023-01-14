@@ -1,6 +1,6 @@
 const final=()=> {
     return(
-    var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+    let names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     
     names.map((name,ind)=>(
     let firstLetter=name.chartAt(0).toLowerCase();
