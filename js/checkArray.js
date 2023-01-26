@@ -1,4 +1,4 @@
-const prod=(arr1,arr2)=>{
+const checkArray=(arr1,arr2)=>{
     let prod=null;
     let prodSecond=null;
     arr1.reduce((acc,curr)=>(prod=acc+curr));
